@@ -73,8 +73,7 @@ ent-v314-003:~ student$ ls -a Documents
 
 What command was repeated?
 ----------
-
-
+$ ls -a Documents
 
 ==========
 6.  Type:
@@ -83,7 +82,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -94,7 +93,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+when pressing tab it will autofill with /Volumes/ 
 
 ==========
 8.  Type:
@@ -104,38 +103,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+Arrow key up.
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
-
+-a
+and
+-l
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
-
+Documents
 ==========
 14.  Type:
 
@@ -144,8 +143,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
-
+-bash: foo: command not found
 ==========
 15.  Type:
 
@@ -154,8 +152,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
-
+-bash: foo: command not found
 ==========
 16.  In the following line....
 
@@ -163,3 +160,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+comand is ls, flag is -a, Desktop is the argument, and $ is the prompt.
