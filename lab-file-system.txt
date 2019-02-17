@@ -333,20 +333,24 @@ pwd
 27. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 28. What's a pathname?
 ----------
 
+it's the general form of a file or directory. it also specifies a unique location in a file system.
 
 
 ==========
 29. What's a directory?
 ----------
 
-
+its a cataloging system that can be used to organize files.
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+
+/Users/Guest/Downloads
