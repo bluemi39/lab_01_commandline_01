@@ -150,7 +150,16 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+$ ls -l 
+total 0
+drwxr-xr-x  2 Guest  _guest  64 Feb 17 13:28 animals
 
+$ rmdir animals
+"no output"
+
+$ ls -l
+total 0
+drwxr-xr-x  3 Guest  _guest  96 Feb 17 13:46 foo
 
 
 ==========
@@ -161,8 +170,11 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+$ cd ~
+~ Guest$ 
 
-
+$ pwd
+/Users/Guest
 
 ==========
 14. Type:
@@ -173,7 +185,11 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+$ cd /Volumes
+Volumes Guest$ 
 
+$ pwd
+/Volumes
 
 ==========
 15. Type:
@@ -184,7 +200,11 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+$ cd /unknown_folder
+-bash: cd: /unknown_folder: No such file or directory
 
+$ pwd
+/Volumes
 
 ==========
 15. Type:
@@ -195,7 +215,11 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+$ cd ~/mtec1002
+mtec1002 Guest$ 
 
+$ pwd
+/Users/Guest/mtec1002
 
 ==========
 16. Type:
@@ -205,8 +229,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
-
+rodrigos-MacBook-Pro.local
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
