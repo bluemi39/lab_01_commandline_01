@@ -230,11 +230,13 @@ Copy and paste the output into the space below.
 ----------
 
 rodrigos-MacBook-Pro.local
+
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd
+/Users/Guest/mtec1002
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -257,7 +259,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawbery/lemon
 
 ==========
 19. Make another directory called aardvark.  
@@ -265,7 +267,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark/
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -273,7 +275,12 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+ls -l
+total 0
+drwxr-xr-x  2 Guest  _guest  64 Feb 17 15:59 aardvark
+drwxr-xr-x  3 Guest  _guest  96 Feb 17 13:46 foo
+drwxr-xr-x  2 Guest  _guest  64 Feb 17 13:32 food
+drwxr-xr-x  3 Guest  _guest  96 Feb 17 15:57 pineapple
 
 ==========
 21. Make 3 directories nested within each other:
@@ -285,7 +292,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -294,31 +301,33 @@ What command did you use?
 ----------
 
 
+cd foo/bar/baz
+
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
