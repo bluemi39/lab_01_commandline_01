@@ -16,9 +16,13 @@ ent-v314-003:~ student$
 2. Create a directory called mtec1002.
 ----------
 
+"No output"
+
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
+
+cd /Users/Guest/mtec1002
 
 ==========
 4. Type:
@@ -32,7 +36,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/Guest/mtec1002
 
 ==========
 5. Type:
@@ -43,7 +47,10 @@ $ ls
 Copy and paste the output below.
 ----------
 
+"No output with $ mkdir animals"
 
+$ ls
+animals
 
 ==========
 6. Type:
@@ -54,6 +61,10 @@ $ ls
 Copy and paste the output below.
 ----------
 
+"no output with $ mkdir food"
+
+ls
+animals	food
 
 
 ==========
@@ -64,7 +75,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
+"no output for $ mkdir -p foo/bar/baz/quz"
 
+$ ls
+animals	foo	food
 
 
 ==========
