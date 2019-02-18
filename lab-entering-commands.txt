@@ -160,4 +160,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
-comand is ls, flag is -a, Desktop is the argument, and $ is the prompt.
+ls is the command, -a is the flag, Desktop is the argument, and $ is the prompt.
